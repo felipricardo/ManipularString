@@ -21,7 +21,7 @@ namespace ManipularString
         {
             string texto = "Este tipo de variavel é alfanumerica.";
 
-            if (texto.Contains("Tipo"))
+            if (texto.Contains("tipo"))
             {
                 label1.Text = "Contém.";
             }
