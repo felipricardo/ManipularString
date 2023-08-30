@@ -138,7 +138,7 @@ namespace ManipularString
 
             //string s = String.Format("O valor do poduto é {0:C2} e a temperatura é {1}", valor, temp);
 
-            string s = String.Format("Hoje é {0:d} e são {0:t}", DateTime.Now);
+            string s = String.Format("Hoje é {0:D} e são {0:T}", DateTime.Now);
 
             label1.Text = s;
         }
