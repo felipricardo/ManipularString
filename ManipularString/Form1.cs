@@ -54,13 +54,15 @@ namespace ManipularString
             //label1.Text = "Indice: " + indice;
             #endregion
 
-            string nome = "Felipe Ricardo";
+            #region Insert / Replace
+            //string nome = "Felipe Ricardo";
 
-            //string nomeFinal = nome.Insert(6, " João ");
+            ////string nomeFinal = nome.Insert(6, " João ");
 
-            string nomeFinal = nome.Replace("Ricardo", "Andre");
+            //string nomeFinal = nome.Replace("Ricardo", "Andre");
 
-            label1.Text = nomeFinal;
+            //label1.Text = nomeFinal;
+            #endregion
         }
     }
 }
