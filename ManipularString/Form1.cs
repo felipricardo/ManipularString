@@ -56,7 +56,7 @@ namespace ManipularString
 
             string nome = "Felipe Ricardo";
 
-            string nomeFinal = nome.Insert(0, "João ");
+            string nomeFinal = nome.Insert(6, " João ");
 
             label1.Text = nomeFinal;
         }
