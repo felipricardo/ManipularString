@@ -134,8 +134,11 @@ namespace ManipularString
             #endregion
 
             decimal valor = 19.95m;
+            int temp = 32;
 
-            string s = "O valor do poduto é " + valor;
+            //string s = String.Format("O valor do poduto é {0:C2} e a temperatura é {1}", valor, temp);
+
+            string s = String.Format("Hoje é {0:d} e são {0:t}", DateTime.Now);
 
             label1.Text = s;
         }
