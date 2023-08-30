@@ -95,7 +95,7 @@ namespace ManipularString
 
             string nome = "Felipe";
 
-            bool res = nome.StartsWith("Fel");
+            bool res = nome.StartsWith("fel", StringComparison.OrdinalIgnoreCase);
 
             if (res)
             {
