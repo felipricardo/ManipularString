@@ -133,7 +133,11 @@ namespace ManipularString
             //label1.Text = nome.CompareTo(nome2).ToString();
             #endregion
 
+            decimal valor = 19.95m;
 
+            string s = "O valor do poduto é " + valor;
+
+            label1.Text = s;
         }
     }
 }
