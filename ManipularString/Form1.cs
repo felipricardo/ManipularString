@@ -96,7 +96,7 @@ namespace ManipularString
             string nome = "Felipe";
 
             //bool res = nome.StartsWith("f", StringComparison.OrdinalIgnoreCase);
-            bool res = nome.EndsWith("PE", StringComparison.OrdinalIgnoreCase);
+            bool res = nome.EndsWith("iPe", StringComparison.OrdinalIgnoreCase);
 
             if (res)
             {
