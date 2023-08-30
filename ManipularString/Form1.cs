@@ -63,6 +63,20 @@ namespace ManipularString
 
             //label1.Text = nomeFinal;
             #endregion
+
+            string nome = "Felipe Andre";
+
+            ////int tam = nome.Length;
+            ////label1.Text = "O nome " + nome + " contém " + tam + " letras.";
+
+            //for (int i = 0; i < nome.Length; i++)
+            //{
+            //    label1.Text += nome[i] + "\n";
+            //}
+
+            string parte = nome.Substring(0, 6);
+
+            label1.Text = parte;
         }
     }
 }
