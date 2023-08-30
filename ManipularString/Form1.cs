@@ -45,9 +45,9 @@ namespace ManipularString
             //label1.Text = nome.ToLower();
             #endregion
 
-            string nome = "Felipe Ricardo";
+            string nome = "Felipe Ricardo Ricardo";
 
-            int indice = nome.IndexOf('i', 5);
+            int indice = nome.LastIndexOf("Ricardo");
 
             label1.Text = "Indice: " + indice;
         }
