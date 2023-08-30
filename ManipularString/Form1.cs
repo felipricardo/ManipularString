@@ -19,16 +19,20 @@ namespace ManipularString
 
         private void btnExcecutar_Click(object sender, EventArgs e)
         {
-            string texto = "Este tipo de variavel é alfanumerica.";
+            //string texto = "Este tipo de variavel é alfanumerica.";
 
-            if (texto.Contains("tipo"))
-            {
-                label1.Text = "Contém.";
-            }
-            else
-            {
-                label1.Text = "Não Contém.";
-            }
+            //if (texto.Contains("tipo"))
+            //{
+            //    label1.Text = "Contém.";
+            //}
+            //else
+            //{
+            //    label1.Text = "Não Contém.";
+            //}
+
+            int num = 5400;
+
+            label1.Text = num.ToString();
         }
     }
 }
