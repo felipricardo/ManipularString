@@ -37,9 +37,19 @@ namespace ManipularString
             //label1.Text = res.ToString();
             #endregion
 
-            string nome = "felipe";
+            #region ToUpper / ToLower
+            //string nome = "felipe RICARDO";
 
-            label1.Text = nome.ToUpper();
+            ////nome.ToUpper();
+
+            //label1.Text = nome.ToLower();
+            #endregion
+
+            string nome = "Felipe Ricardo";
+
+            int indice = nome.IndexOf('i', 5);
+
+            label1.Text = "Indice: " + indice;
         }
     }
 }
