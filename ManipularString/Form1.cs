@@ -117,7 +117,15 @@ namespace ManipularString
             //label1.Text = ">" + msg.TrimEnd() + "<";
             #endregion
 
+            string nome = "Felipe";
 
+            if (nome.Equals("Monde"))
+            {
+                label1.Text = "Positivo";
+            }else
+            {
+                label1.Text = "Negativo";
+            }
         }
     }
 }
