@@ -119,7 +119,9 @@ namespace ManipularString
 
             string nome = "Felipe";
 
-            if (nome.Equals("Felipe"))
+            string nome2 = "João";
+
+            if (nome.Equals(nome2, StringComparison.OrdinalIgnoreCase))
             {
                 label1.Text = "Positivo";
             }else
