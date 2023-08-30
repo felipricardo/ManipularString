@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -133,14 +134,21 @@ namespace ManipularString
             //label1.Text = nome.CompareTo(nome2).ToString();
             #endregion
 
-            decimal valor = 19.95m;
-            int temp = 32;
+            #region Format
+            //decimal valor = 19.95m;
+            //int temp = 32;
 
             //string s = String.Format("O valor do poduto é {0:C2} e a temperatura é {1}", valor, temp);
 
-            string s = String.Format("Hoje é {0:D} e são {0:T}", DateTime.Now);
+            //string s = String.Format("Hoje é {0:D} e são {0:T}", DateTime.Now);
 
-            label1.Text = s;
+            //string s = $"O valor do poduto é {valor:C2} e a temperatura é {temp}";
+
+            //string s = $"Data: {DateTime.Now:D} e hora {DateTime.Now:T}";
+
+            //label1.Text = s;
+            #endregion
+
         }
     }
 }
