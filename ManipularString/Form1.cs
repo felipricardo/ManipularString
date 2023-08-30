@@ -108,13 +108,16 @@ namespace ManipularString
             //}
             #endregion
 
-            string msg = "   -_5  Salut Felipe! --__     ";
+            #region Trim / TrimStarts / TrimEnd
+            //string msg = "Salut Felipe!    ";
 
-            char[] c = { ' ', '-', '_', '5' };
+            ////char[] c = { ' ', '-', '_', '5' };
+            ////string nova = msg.Trim(c);
 
-            string nova = msg.Trim(c);
+            //label1.Text = ">" + msg.TrimEnd() + "<";
+            #endregion
 
-            label1.Text = ">" + nova + "<";
+
         }
     }
 }
