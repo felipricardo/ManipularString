@@ -80,9 +80,9 @@ namespace ManipularString
             //label1.Text = parte;
             #endregion
 
-            string nomes = "Leo_+_Dani_+_Felipe_+_Joao_+_Gui";
+            string nomes = "Leo Dani Felipe_Joao-Gui";
 
-            string[] separador = { "_+_" };
+            char[] separador = { ' ', '-', '_' };
 
             string[] resultado = nomes.Split(separador, StringSplitOptions.None);
 
