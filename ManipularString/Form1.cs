@@ -93,18 +93,22 @@ namespace ManipularString
             //}
             #endregion
 
-            string nome = "Felipe";
+            #region StartsWith / EndsWith
+            //string nome = "Felipe";
 
-            //bool res = nome.StartsWith("f", StringComparison.OrdinalIgnoreCase);
-            bool res = nome.EndsWith("iPe", StringComparison.OrdinalIgnoreCase);
+            ////bool res = nome.StartsWith("f", StringComparison.OrdinalIgnoreCase);
+            //bool res = nome.EndsWith("iPe", StringComparison.OrdinalIgnoreCase);
 
-            if (res)
-            {
-                label1.Text = "Positivo.";
-            }else
-            {
-                label1.Text = "Negativo";
-            }
+            //if (res)
+            //{
+            //    label1.Text = "Positivo.";
+            //}else
+            //{
+            //    label1.Text = "Negativo";
+            //}
+            #endregion
+
+
         }
     }
 }
