@@ -117,17 +117,23 @@ namespace ManipularString
             //label1.Text = ">" + msg.TrimEnd() + "<";
             #endregion
 
-            string nome = "Felipe";
+            #region Equals / CompareTo
+            //string nome = "Felipe";
 
-            string nome2 = "João";
+            //string nome2 = "Lucas";
 
-            if (nome.Equals(nome2, StringComparison.OrdinalIgnoreCase))
-            {
-                label1.Text = "Positivo";
-            }else
-            {
-                label1.Text = "Negativo";
-            }
+            //if (nome.Equals(nome2, StringComparison.OrdinalIgnoreCase))
+            //{
+            //    label1.Text = "Positivo";
+            //}else
+            //{
+            //    label1.Text = "Negativo";
+            //}
+
+            //label1.Text = nome.CompareTo(nome2).ToString();
+            #endregion
+
+
         }
     }
 }
