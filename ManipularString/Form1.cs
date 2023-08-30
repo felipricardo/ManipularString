@@ -84,7 +84,7 @@ namespace ManipularString
 
             char[] separador = { ' ', '-', '_' };
 
-            string[] resultado = nomes.Split(separador, StringSplitOptions.None);
+            string[] resultado = nomes.Split(separador);
 
             foreach (string nome in resultado)
             {
