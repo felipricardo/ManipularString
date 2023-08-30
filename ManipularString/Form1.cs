@@ -119,7 +119,7 @@ namespace ManipularString
 
             string nome = "Felipe";
 
-            if (nome.Equals("Monde"))
+            if (nome.Equals("Felipe"))
             {
                 label1.Text = "Positivo";
             }else
