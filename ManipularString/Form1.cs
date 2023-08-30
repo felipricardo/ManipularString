@@ -80,16 +80,20 @@ namespace ManipularString
             //label1.Text = parte;
             #endregion
 
-            string nomes = "Leo Dani Felipe_Joao-Gui";
+            #region Split
+            //string nomes = "Leo Dani Felipe_Joao-Gui";
 
-            char[] separador = { ' ', '-', '_' };
+            //char[] separador = { ' ', '-', '_' };
 
-            string[] resultado = nomes.Split(separador);
+            //string[] resultado = nomes.Split(separador);
 
-            foreach (string nome in resultado)
-            {
-                label1.Text += nome + "\n";
-            }
+            //foreach (string nome in resultado)
+            //{
+            //    label1.Text += nome + "\n";
+            //}
+            #endregion
+
+
         }
     }
 }
