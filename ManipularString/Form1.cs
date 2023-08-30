@@ -31,8 +31,9 @@ namespace ManipularString
             //}
 
             int num = 5400;
+            bool res = true;
 
-            label1.Text = num.ToString();
+            label1.Text = res.ToString();
         }
     }
 }
