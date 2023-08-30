@@ -93,7 +93,17 @@ namespace ManipularString
             //}
             #endregion
 
+            string nome = "Felipe";
 
+            bool res = nome.StartsWith("Fel");
+
+            if (res)
+            {
+                label1.Text = "Positivo.";
+            }else
+            {
+                label1.Text = "Negativo";
+            }
         }
     }
 }
