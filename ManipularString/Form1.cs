@@ -64,7 +64,8 @@ namespace ManipularString
             //label1.Text = nomeFinal;
             #endregion
 
-            string nome = "Felipe Andre";
+            #region Length / Substring
+            //string nome = "Felipe Andre";
 
             ////int tam = nome.Length;
             ////label1.Text = "O nome " + nome + " contém " + tam + " letras.";
@@ -74,9 +75,12 @@ namespace ManipularString
             //    label1.Text += nome[i] + "\n";
             //}
 
-            string parte = nome.Substring(0, 6);
+            //string parte = nome.Substring(nome.IndexOf(" "));
 
-            label1.Text = parte;
+            //label1.Text = parte;
+            #endregion
+
+
         }
     }
 }
